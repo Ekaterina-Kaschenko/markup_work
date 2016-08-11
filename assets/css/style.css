@@ -1,0 +1,71 @@
+.main-block {
+  background-image: url('../images/main-bg.png');
+  background-size: cover;
+  height: 50em;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5em 0;
+  align-items: center;
+
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 1.5em;
+}
+
+/* .menu__link:not(:last-child) {
+  margin-left: 1.25em;
+} */
+
+.buttons {
+  margin-top: 2.7em;
+  display: flex;
+}
+
+.get-tour {
+  background-image: url('../images/btn-bg.png');
+}
+
+.fa-play {
+  width: 2em;
+  height: 2em;
+  padding: .38em;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.unic-place {
+  background-image: url('../images/castle-bg.png');
+  background-size: cover;
+  min-height: 600px;
+  position: relative;
+}
+
+.place-title {
+  margin-bottom: 1em;
+}
+
+.unic-place__wrapper {
+  position: absolute;
+  bottom: 7em;
+  left: 38em;
+  line-height: 1.5em;
+}

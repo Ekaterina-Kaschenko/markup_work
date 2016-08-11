@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+  color: #fff;
+}
+
+.title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.25em;
+  padding-top: 5em;
+  line-height: 1.4em;
+  color: #fff;
+}
+
+.section-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.6em;
+}
+
+.section-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+}
+
+.section-description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .75em;
+  color: #a9a9a9;
+}
+
+.form-title {
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.4em;
+}
+
+.form-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .875em;
+}
+
+.content-btn {
+  display: inline-block;
+  width: 17.5em;
+  height: 3.5em;
+  border-radius: 2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .875em;
+  text-transform: uppercase;
+  line-height: 3.5em;
+  text-align: center;
+  color: #fff;
+}
+
+.inner-content {
+  max-width: 60em;
+  margin: 0 auto;
+  padding-left: 3em;
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "naturetour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "owl.carousel": "^2.1.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.3",
+    "gulp": "^3.9.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files './styles/**/*.css'"
+  },
+  "author": "Kate Kashchenko",
+  "license": "ISC"
+}
