@@ -16,6 +16,11 @@ body {
   font-size: 1.6em;
 }
 
+.content-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125em;
+}
+
 .section-text {
   font-family: 'Open Sans', sans-serif;
   font-size: .8em;
@@ -45,6 +50,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: .875em;
   text-transform: uppercase;
+  text-decoration: none;
   line-height: 3.5em;
   text-align: center;
   color: #fff;
@@ -56,3 +62,6 @@ body {
   padding-left: 3em;
 }
 
+.section-image {
+  width: 100%;
+}

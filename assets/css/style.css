@@ -55,7 +55,7 @@
 .unic-place {
   background-image: url('../images/castle-bg.png');
   background-size: cover;
-  min-height: 600px;
+  height: 600px;
   position: relative;
 }
 
@@ -65,7 +65,58 @@
 
 .unic-place__wrapper {
   position: absolute;
-  bottom: 7em;
+  bottom: 5.3em;
   left: 38em;
   line-height: 1.5em;
 }
+
+.unic-place__text {
+  width: 70%;
+}
+    
+.advantages {
+  padding: 6em 1em 1em 4em;
+  color: #000;
+}
+
+.advantages__item {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.advantages__picture,
+.advantages__info {
+  width: 50%;
+  padding: 1em;
+}
+
+.advantages__info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.advantages-title {
+  font-weight: 600;
+}
+
+.advantages-header {
+  margin-bottom: 2em;
+}
+
+.advantages-text {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 1em;
+}
+
+.advantages__picture {
+  display: flex;
+  align-items: center;
+}
+
+
+/* div, p {
+  border: 1px solid black;
+} */
