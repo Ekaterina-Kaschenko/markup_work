@@ -1,4 +1,4 @@
-.main-block {
+.main {
   background-image: url('../images/main-bg.png');
   background-size: cover;
   height: 50em;
@@ -55,8 +55,10 @@
 .unic-place {
   background-image: url('../images/castle-bg.png');
   background-size: cover;
+  background-repeat: no-repeat;
   height: 600px;
-  position: relative;
+  padding-top: 350px;
+  padding-left: 500px;
 }
 
 .place-title {
@@ -64,10 +66,8 @@
 }
 
 .unic-place__wrapper {
-  position: absolute;
-  bottom: 5.3em;
-  left: 38em;
-  line-height: 1.5em;
+  padding-left: 9em;
+  line-height: 1.5em; 
 }
 
 .unic-place__text {
@@ -75,20 +75,37 @@
 }
     
 .advantages {
-  padding: 6em 1em 1em 4em;
+  padding: 6em 1em 1em 3em;
   color: #000;
 }
 
 .advantages__item {
   display: flex;
   justify-content: space-between;
-
+  margin-bottom: 2.5em;
 }
 
-.advantages__picture,
+.advantages__picture {
+  width: 50%;
+}
+
 .advantages__info {
   width: 50%;
-  padding: 1em;
+  padding: 2em 0 1em 2em;
+}
+
+.advantages__item:nth-child(2n+1) .advantages__info{
+  padding-right: 2em;
+  padding: 2em 2em 1em 0; 
+}
+
+/* .advantages__item:nth-child(2n+1) .advantages-text {
+  background-color: red;
+} */
+
+.advantages__picture {
+  display: flex;
+  align-items: center;
 }
 
 .advantages__info {
@@ -106,17 +123,15 @@
 }
 
 .advantages-text {
-  font-size: 1em;
+  font-size: .9em;
   line-height: 1.5em;
   padding-top: 1em;
 }
 
-.advantages__picture {
-  display: flex;
-  align-items: center;
+.slider {
+  height: 650px;
 }
-
-
 /* div, p {
   border: 1px solid black;
 } */
+
