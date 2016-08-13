@@ -34,7 +34,9 @@ body {
 
 .form-title {
   font-family: 'Roboto Slab', serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
+  line-height: 1.3em;
+  margin-bottom: 1.5em;
 }
 
 .form-text {
@@ -63,5 +65,10 @@ body {
 }
 
 .section-image {
-  width: 100%;
+  width: 95%;
 }
+
+::-webkit-input-placeholder {color:#a8c3fd;}
+::-moz-placeholder          {color:#a8c3fd;}/* Firefox 19+ */
+:-moz-placeholder           {color:#a8c3fd;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#a8c3fd;}

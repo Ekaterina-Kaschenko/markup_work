@@ -75,7 +75,8 @@
 }
     
 .advantages {
-  padding: 6em 1em 1em 3em;
+  max-width: 67em;
+  padding: 6em 1em 1em 6em;
   color: #000;
 }
 
@@ -91,7 +92,7 @@
 
 .advantages__info {
   width: 50%;
-  padding: 2em 0 1em 2em;
+  padding: 3em 0 2em 1em;
 }
 
 .advantages__item:nth-child(2n+1) .advantages__info{
@@ -135,3 +136,37 @@
   border: 1px solid black;
 } */
 
+.form-container {
+  background-image: url('../images/ship-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 420px;
+  position: relative;
+  margin-top: 77px;
+}
+
+.form-wrapper {
+  width: 380px;
+  background-color: #749bf2;
+  border-radius: 5px;
+  position: absolute;
+  top: -65px;
+  padding: 3em 2em;
+}
+
+.form__item {
+  border: 1px solid #fff;
+  border-radius: 2em;
+  background-color: #749bf2;
+  margin-bottom: 20px;
+  padding: 10px 35px;
+  width: 79%;
+  font-size: 1em;
+  color: #fff;
+}
+
+.pick-tour {
+  background-image: url('../images/tour-btn.png');
+  color: #87a8f3;
+
+}
