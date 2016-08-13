@@ -160,7 +160,8 @@
   background-color: #749bf2;
   margin-bottom: 20px;
   padding: 10px 35px;
-  width: 79%;
+  width: 100%;
+  box-sizing: border-box;
   font-size: 1em;
   color: #fff;
 }
@@ -170,3 +171,67 @@
   color: #87a8f3;
 
 }
+
+.problems {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  padding-top: 100px;
+  padding-bottom: 160px; 
+  width: 64em;
+}
+
+.problems-left,
+.problems-right {
+  width: 50%;
+}
+
+/* .problems-left {
+  margin-left: 2em;
+} */
+
+.problems-right {
+  margin-left: 3em;
+  padding-left: 2em;
+}
+
+.problems__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.problems-title {
+  line-height: 1.1em;
+  margin-bottom: 1.9em;
+}
+    
+.problems__item-icon {
+  width: 13%;
+}
+
+.problems__item-info {
+  width: 87%;
+  margin-bottom: 2.5em;
+}
+   
+.problems-header {
+  padding-bottom: 0.6em;
+} 
+
+.problens-text {
+  font-size: .9em;
+}
+
+.problems-bg {
+  position: relative;
+}
+
+.problems-bg__item {
+  position: absolute;
+  top: 4em;
+  right: -2em;
+}
+    
+.margin-item {
+  margin-top: 29em;
+}    

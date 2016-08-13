@@ -24,6 +24,7 @@ body {
 .section-text {
   font-family: 'Open Sans', sans-serif;
   font-size: .8em;
+  line-height: 1.8em;
 }
 
 .section-description {
